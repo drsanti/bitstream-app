@@ -33,22 +33,22 @@ After installation, you can run **`bitstream`** from any directory. Check that i
 
 ## Download `firmware` and `frontend`
 
-1. Open the repository: [drsanti/aut561-bitstream-app](https://github.com/drsanti/aut561-bitstream-app).
+1. Open the repository: [drsanti/bitstream-app](https://github.com/drsanti/bitstream-app).
 2. Click **Code** → **Download ZIP** and save the archive.
-3. Extract the ZIP to a folder that will be your workspace **ROOT** (the directory you will `cd` into later). Pick any short path without spaces if you can. Examples: **Windows** — **`C:\aut561`** (in Git Bash use **`/c/aut561`**). **macOS** — e.g. **`~/aut561`** or **`/Users/<yourname>/aut561`** in Terminal.
+3. Extract the ZIP to a folder that will be your workspace **ROOT** (the directory you will `cd` into later). Pick any short path without spaces if you can. Examples: **Windows** — **`C:\bitstream-app`** (in Git Bash use **`/c/bitstream-app`**). **macOS** — e.g. **`~/bitstream-app`** or **`/Users/<yourname>/bitstream-app`** in Terminal.
 
-**ROOT** must be the folder that **directly** contains **`firmware/`** and **`frontend/`**. If extraction created an extra level (for example `aut561-bitstream-app-main`), either `cd` into that folder and treat it as **ROOT**, or move `firmware` and `frontend` up so they sit immediately inside your chosen **ROOT**.
+**ROOT** must be the folder that **directly** contains **`firmware/`** and **`frontend/`**. If extraction created an extra level (for example `bitstream-app-main`), either `cd` into that folder and treat it as **ROOT**, or move `firmware` and `frontend` up so they sit immediately inside your chosen **ROOT**.
 
 ## Initialize the project
 
 In a terminal, go to your workspace **ROOT** (the folder that contains **`firmware/`** and **`frontend/`**), then run Bitstream’s workspace setup:
 
 ```bash
-cd /c/aut561
+cd /c/bitstream-app
 bitstream init default --force
 ```
 
-Use your real **ROOT** path instead of `/c/aut561` (same folder you chose when extracting the ZIP). On macOS, that might look like `cd ~/aut561`.
+Use your real **ROOT** path instead of `/c/bitstream-app` (same folder you chose when extracting the ZIP). On macOS, that might look like `cd ~/bitstream-app`.
 
 **`bitstream init default`** creates **`bitstream.config.json`** in **ROOT** so Bitstream knows where the firmware headers and frontend live. If the layout is wrong, the command prints errors and exits; fix paths or folder names until it succeeds.
 
@@ -216,7 +216,3 @@ For live telemetry on the dashboard, keep these running:
 ![alt text](assets/sc-ex04.png)
 
 ![alt text](assets/sc-ex05.png)
-
-
-
-

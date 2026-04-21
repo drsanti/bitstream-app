@@ -35,7 +35,7 @@ Integration of sensor-node firmware (MCU) and React web UI applications:
 ## Workspace Layout
 
 ```text
-root/
+bitstream-app/
 ├─ firmware/    # PSoC 6 app (ModusToolbox)
 ├─ frontend/    # React + Vite dashboard
 ├─ docs/        # Tutorial and screenshots
