@@ -1,0 +1,36 @@
+@import 'tailwindcss';
+
+/* Dark, compact scrollbars (Firefox + WebKit) */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: #475569 #0f172a;
+}
+
+*::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+*::-webkit-scrollbar-track {
+  background: #0f172a;
+  border-radius: 3px;
+}
+
+*::-webkit-scrollbar-thumb {
+  background: #475569;
+  border-radius: 3px;
+}
+
+*::-webkit-scrollbar-thumb:hover {
+  background: #64748b;
+}
+
+*::-webkit-scrollbar-corner {
+  background: #0f172a;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  @apply bg-slate-950 text-slate-100 antialiased;
+}

@@ -1,0 +1,3 @@
+$(SEARCH_aws-iot-device-sdk-embedded-C)/libraries/standard/coreHTTP
+$(SEARCH_BMM350_SensorAPI)/examples
+$(SEARCH_sensor-motion-bmi270)
