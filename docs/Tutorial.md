@@ -70,6 +70,9 @@ bitstream fw getlibs
 
 This wraps **`make getlibs`** in **`firmware/`**. Run it once on a new copy of the project, or whenever you need to refresh dependencies. It requires **ModusToolbox** and **`make`** on your **`PATH`**, the same as building the firmware in the ModusToolbox environment.
 
+> [!NOTE]
+> `bitstream fw getlibs` may take about **2-5 minutes** (or longer) depending on your internet speed. Wait until the command finishes completely.
+
 ## Compile the firmware
 
 From workspace **ROOT**, compile the firmware (same as **`make build`** in **`firmware/`**):
