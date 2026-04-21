@@ -8,7 +8,7 @@
 # code into a VCS, you can ignore the .gitignore file.
 
 # ModusToolbox library repos or information about library dependencies
-libs/
+#>>>>> libs/
 
 # Uncomment below line if you don't want to lock the library versions for your application
 # assetlocks.json
@@ -19,7 +19,7 @@ GeneratedSource/
 .mtbqueryapi
 
 # ModusToolbox BSP files. Any custom BSP file for code examples is shipped within the 'templates' folder
-bsps/
+#>>>>> bsps/
 
 # ModusToolbox build system output
 build/
