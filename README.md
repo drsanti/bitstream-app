@@ -1,15 +1,16 @@
-# Bitstream Application - INC343/AUT561
+# Bitstream Application - INC343/AUT561/NonDeegree/TESAIoT
 
-[![Repository](https://img.shields.io/badge/repo-aut561--bitstream--app-181717?logo=github)](https://github.com/drsanti/aut561-bitstream-app)
-[![Firmware](https://img.shields.io/badge/firmware-PSoC%206-0A7EA4)](./firmware)
-[![Frontend](https://img.shields.io/badge/frontend-React%20%2B%20Vite-61DAFB?logo=react)](./frontend)
-[![Docs](https://img.shields.io/badge/docs-Tutorial-4C1)](./docs/Tutorial.md)
+[![Repository](https://img.shields.io/badge/Repo-bitstream--app-181717?logo=github)](https://github.com/drsanti/aut561-bitstream-app)
+[![Firmware](https://img.shields.io/badge/Firmware-PSoC%206-0A7EA4?logo=arm&logoColor=white)](./firmware)
+[![Frontend](https://img.shields.io/badge/Frontend-React%20%2B%20Vite-61DAFB?logo=react)](./frontend)
+[![Docs](https://img.shields.io/badge/Docs-Tutorial-4C1?logo=readthedocs&logoColor=white)](./docs/Tutorial.md)
 [![Node](https://img.shields.io/badge/node-%3E%3D20-339933?logo=node.js)](https://nodejs.org/)
 
 ---
 
 ![alt text](docs/assets/sc-ex05-2.png)
-See the full UI screenshot gallery in [`docs/assets/GALLERY.md`](./docs/assets/GALLERY.md).
+See the full UI screenshot gallery in [`docs/assets/GALLERY.md`](./docs/assets/GALLERY.md).  
+Watch the demo on YouTube: [Demo: Bitstream Application](https://www.youtube.com/watch?v=5Ybb6eFmL5I).
 
 ---
 
