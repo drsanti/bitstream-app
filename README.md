@@ -27,12 +27,16 @@ Integration of sensor-node firmware (MCU) and React web UI applications:
 > New here? Start with **[`docs/Tutorial.md`](./docs/Tutorial.md)**.
 
 > [!IMPORTANT]
-> Before starting this repository, be sure you have already passed/completed the experiment in **[`drsanti/ps6-mqtt-sensors`](https://github.com/drsanti/ps6-mqtt-sensors)**.
+> If you plan to use **real hardware** (a PSoC 6 development kit), complete the prerequisite experiment in **[`drsanti/ps6-mqtt-sensors`](https://github.com/drsanti/ps6-mqtt-sensors)** first. The simulator and frontend paths in this repo do not require that step.
+
+> [!IMPORTANT]
+> To work comfortably with the **React frontend** in this repository, complete the **INC343** prerequisites in order: **[`drsanti/INC343-2025`](https://github.com/drsanti/INC343-2025)** (full course materials), then **[`drsanti/INC343-2026`](https://github.com/drsanti/INC343-2026)**.
+
 
 ## Workspace Layout
 
 ```text
-ps6-ws/
+root/
 ├─ firmware/    # PSoC 6 app (ModusToolbox)
 ├─ frontend/    # React + Vite dashboard
 ├─ docs/        # Tutorial and screenshots
