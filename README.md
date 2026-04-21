@@ -30,8 +30,7 @@ Integration of sensor-node firmware (MCU) and React web UI applications:
 > If you plan to use **real hardware** (a PSoC 6 development kit), complete the prerequisite experiment in **[`drsanti/ps6-mqtt-sensors`](https://github.com/drsanti/ps6-mqtt-sensors)** first. The simulator and frontend paths in this repo do not require that step.
 
 > [!IMPORTANT]
-> To work comfortably with the **React frontend** in this repository, complete the **INC343** prerequisites in order: **[`drsanti/INC343-2025`](https://github.com/drsanti/INC343-2025)** (full course materials), then **[`drsanti/INC343-2026`](https://github.com/drsanti/INC343-2026)**.
-
+> To work comfortably with the **React frontend** in this repository, complete the **INC343-2025** prerequisites in order: follow the **[INC343 YouTube playlist](https://www.youtube.com/playlist?list=PLBPFpqyTjzeV46XDw-SdvRYmcqbYRrVoM)** from start to finish, then review **[`drsanti/INC343-2025`](https://github.com/drsanti/INC343-2025)** (course materials).
 
 ## Workspace Layout
 
