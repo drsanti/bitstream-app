@@ -1,4 +1,6 @@
-# Bitstream Application - INC343/AUT561/NonDeegree/TESAIoT
+# Bitstream Application
+
+> This repository is used for the `INC343` / `AUT561` / `NonDeegree` / `TESAIoT`
 
 [![Repository](https://img.shields.io/badge/Repo-bitstream--app-181717?logo=github)](https://github.com/drsanti/aut561-bitstream-app)
 [![Firmware](https://img.shields.io/badge/Firmware-PSoC%206-0A7EA4?logo=arm&logoColor=white)](./firmware)
